@@ -1,0 +1,123 @@
+.container {
+  max-width: 90%;
+  width: 550px;
+  margin: 0 auto;
+  background-color: aliceblue;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.container h1 {
+  margin-top: 18px;
+  font-size: 3em;
+  color: #61dafb;
+}
+
+.containerInput {
+  margin-top: -9px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+input {
+  width: 380px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  text-align: center;
+  font-size: 1.8em;
+  border: 0;
+  outline: none;
+  border-radius: 8px;
+}
+
+input::placeholder {
+  color: #61dafb;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  margin-top: 1.2rem;
+  width: 175px;
+  height: 55px;
+  background: #61dafb;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: #61dafb;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  background-color: #61dafb;
+  width: 480px;
+  max-width: 75%;
+  margin-top: 25px;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 1em;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.main span {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 451px) {
+  .container h1 {
+    font-size: 2.2em;
+    max-width: 100%;
+    margin-top: -20px;
+  }
+
+  .containerInput {
+    max-width: 85%;
+  }
+
+  .btns {
+    max-width: 85%;
+  }
+
+  .main {
+    font-size: 0.7em;
+  }
+
+  header {
+    margin-bottom: 40px;
+  }
+
+}
