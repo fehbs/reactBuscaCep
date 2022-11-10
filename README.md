@@ -35,4 +35,6 @@ para os ícones.
 
 React-Toastfy;
 
- para alertas personalizados.
+para alertas personalizados.
+
+E o bom e velho CSS feito às mãos.
