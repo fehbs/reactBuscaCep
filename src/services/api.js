@@ -6,7 +6,7 @@ import axios from 'axios';
 // https://viacep.com.br/ws/${cep}/json
 
 const api = axios.create({
-  baseURL: 'http://viacep.com.br/ws/01310930/json/`
+  baseURL: `http://viacep.com.br/ws/01310930/json/`
 });
 
 export default api;
