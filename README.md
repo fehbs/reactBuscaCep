@@ -40,6 +40,9 @@ para alertas personalizados.
 
 E o bom e velho CSS feito às mãos.
 
+O deploy foi feito na vercel.
+
+##
 http://react-busca-cep.vercel.app/
 ##
 </div>
