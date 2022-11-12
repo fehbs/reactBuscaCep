@@ -1,12 +1,8 @@
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-          
-          
-##
+<div align="center">
+<img align="center" height="61%" width="61%" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                    
 # React Busca Cep
-##
-
-É um buscador de Cep. 
+### É um buscador de Cep. 
 
 Ao digitar um Cep ele faz uma requisição HTTP na API 
 e retorna uma resposta em formato JSON 
@@ -45,3 +41,5 @@ para alertas personalizados.
 E o bom e velho CSS feito às mãos.
 
 http://react-busca-cep.vercel.app/
+##
+</div>
